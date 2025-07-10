@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-logging",
+  "version": "1.0.0",
+  "description": "learn nodejs-logging",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jest": "jest"
+  },
+  "jest": {
+    "maxConcurrency": 2,
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendoanoppah/nodejs-unit-test.git"
+  },
+  "author": "ioo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mendoanoppah/nodejs-unit-test/issues"
+  },
+  "homepage": "https://github.com/mendoanoppah/nodejs-unit-test#readme",
+  "dependencies": {
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4"
+  }
+}
