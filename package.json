@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jest": "jest"
+    "j": "jest"
   },
   "jest": {
     "maxConcurrency": 2,
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/mendoanoppah/nodejs-unit-test#readme",
   "dependencies": {
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.28.0",

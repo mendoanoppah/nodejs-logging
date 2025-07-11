@@ -1,1 +1,13 @@
 node_modules/
+package-lock.json
+sample.json
+.7a4b15dc154ee62ea0428ec3b1435458bc2bf9e0-audit.json
+.c6a17ab47472e96efe140d7f3eb297dc8fe592c4-audit.json
+app-2025-07-12.log
+application-error.log
+application-error.log
+application.log
+exception.log
+ioo.log
+unhandleRejection-promise.json
+unhandleRejection-promise.log
